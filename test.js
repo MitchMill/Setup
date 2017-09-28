@@ -8,7 +8,7 @@
   }
 
 
-  ThreejsScene.prototype.init = function () {
+  prototype.init = function () {
     this.scene = new THREE.Scene();
     this.initCamera();
     this.initLight();
